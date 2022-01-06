@@ -1,0 +1,36 @@
+{
+  "id": "7024bb91-80c6-47bd-a353-aad54d738ca1",
+  "type": "upload",
+  "Handler": {
+    "UploadHandler": {
+      "branch": ".unknown",
+      "upload_url": "https://eu.ast.checkmarx.net/storage/uploads.eu.ast.checkmarx.net-eu-west-1-602005780816/2021_08_24_15_07_32.309?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ast%2F20210824%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20210824T150732Z&X-Amz-Expires=86400&X-Amz-Signature=644cb8d67f0c0ad0daafbba3036decb7a3da990102d017e8bb94fd0049e7f787&X-Amz-SignedHeaders=host"
+    }
+  },
+  "configs": [
+    {
+      "type": "sast",
+      "value": {
+        "presetName": "Checkmarx Default",
+        "incremental": "false"
+      }
+    },
+    {
+      "type": "sca"
+    },
+    {
+      "type": "kics"
+    }
+  ],
+  "project": {
+    "id": "4d79aa94-ecb0-4627-9418-2935b0a88dd8",
+    "tags": {
+      "test": "",
+      "training": ""
+    }
+  },
+  "created_at": {
+    "nanos": 826861529,
+    "seconds": 1629817665
+  }
+}
